@@ -29,4 +29,8 @@ fun main(){
     // Char
     val charValue: Char = 'A'
     println("Char: $charValue")
+
+    // Boolean
+    val booleanValue: Boolean = true
+    println("Boolean: $booleanValue")
 }
