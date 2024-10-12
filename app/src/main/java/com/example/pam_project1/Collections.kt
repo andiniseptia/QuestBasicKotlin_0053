@@ -15,6 +15,25 @@ fun contohList() {
     // List Mutable
     val shape: MutableList<String> = mutableListOf("Circle", "Square", "Triangle")
     println(shape)
+
+    // Menambahkan data ke dalam list mutable
+    shape.add("Circle")
+    println(shape)
+
+    // Menghapus data dari list mutable
+    shape.remove("Triangle")
+    println(shape)
+
+    println(shape.first())
+    println(shape.last())
+    println(shape.count())
+
+    shape.removeAt(1)
+    println(shape)
+
+    // Mengubah data di dalam list mutable
+    shape[0] = "Oval"
+    println(shape)
 }
 
 fun main() {
