@@ -89,6 +89,10 @@ fun contohMap() {
     // Menghapus data dari Map Mutable
     shape.remove("Circle")
     println(shape)
+
+    // Map Read-Only
+    val shapesLocked: Map<String, Int> = shape
+    println(shapesLocked)
 }
 
 fun main() {
