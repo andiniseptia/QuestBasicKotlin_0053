@@ -6,4 +6,10 @@ fun nullSafety() {
 
     // Throws a compiler error
     // neverNull = null
+
+    // nullable has nullable String type
+    var nullable: String? = "You can keep a nul here"
+
+    // This is OK
+    nullable = null
 }
