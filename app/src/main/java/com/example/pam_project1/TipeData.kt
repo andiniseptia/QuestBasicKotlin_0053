@@ -17,4 +17,8 @@ fun main(){
     // Long
     val longValue: Long = 40
     println("long: $longValue")
+
+    // Float
+    val floatValue: Float = 50.6f
+    println("Float: $floatValue")
 }
